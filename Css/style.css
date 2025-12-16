@@ -1,0 +1,631 @@
+/* START OF NAVBAR */
+.navbar {
+    border-bottom: 1px solid #F1F2F5;
+    background-color: #FDFEFE;
+}
+
+.nav-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    margin-right: .75rem;
+    background: linear-gradient(180deg, #712CFC 0%, #6233F9 100%);
+    box-shadow: 0px 5px 10px #E0D2FF;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+
+}
+
+.navbar-brand span {
+    color: #7F22FE;
+}
+
+
+.nav-p {
+    font-size: 14px;
+    margin: 0;
+    color: #6A7282;
+    font-weight: 500;
+}
+
+.nav-btns .nav-btn {
+    color: #727985;
+    border: none;
+    background-color: transparent;
+}
+
+.nav-btns i {
+    font-size: 15px;
+
+}
+
+.navbar .nav-btn {
+    margin-right: .5rem;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+}
+
+.nav-btns .nav-btn:hover {
+    color: #45484d;
+    border-radius: 10px;
+    background-color: rgba(243, 243, 243, .6);
+}
+
+.navbar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+}
+
+.add-btn {
+    background: linear-gradient(90deg, #7E25FE 0%, #5238F7 100%);
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: .5rem;
+    transition: all .3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 10px 20px;
+}
+
+.add-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 1px 3px 8px #8a8d92;
+
+}
+
+.add-btn i {
+    font-size: x-small;
+
+}
+
+/* END OF NAVBAR */
+
+
+
+/* START OF Main */
+.contact-body {
+    padding-top: 75px;
+    background: linear-gradient(180deg, #F8FAFC 0%, #EEF4FD 100%);
+    height: 100vh;
+    overflow: auto;
+}
+
+.contact-body .item {
+    background-color: white;
+    border: 1px solid rgb(236, 236, 236);
+    box-shadow: 0px 0px 2px #dddddd;
+    transition: all .3s ease;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.contact-body .item:hover {
+    box-shadow: 0px 2px 5px #dddddd;
+
+}
+
+.contact-body .item i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+}
+
+.contact-body .item .fa-users {
+    box-shadow: 0px 5px 10px #CADFFF;
+    background: linear-gradient(135deg, #2779FF 0%, #1761FC 100%);
+
+}
+
+.contact-body .item .fa-star {
+    box-shadow: 0px 5px 10px #FFE2B5;
+    background: linear-gradient(135deg, #FFB100 0%, #FF7A00 100%);
+
+}
+
+.contact-body .item .fa-heart-pulse {
+    box-shadow: 0px 5px 10px #FFC7D5;
+    background: linear-gradient(135deg, #FD1B50 0%, #EC0021 100%);
+
+}
+
+.contact-body .details p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #848e79;
+}
+
+.contact-body .details span {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.contact-body .heading span {
+    font-size: 15px;
+    margin: 0;
+    color: #7e8592;
+    font-weight: 500;
+}
+
+.contact-body .search-icon {
+    top: 13px;
+    left: 16px;
+    color: #99A1AF;
+}
+
+.form-control {
+    --bs-border-color: #E5E7EB;
+    padding: 12px 48px;
+    border-radius: 12px;
+}
+
+.form-control:focus {
+    border: 1px solid #712CFC;
+    box-shadow: 0px 0px 4px #b691ff;
+}
+
+.contact-img .f-letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #00B77F 0%, #009F87 100%);
+
+}
+
+.contact-info .fa-phone,
+.social .fa-envelope,
+.social .fa-location-dot {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    border-radius: 5px;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info .fa-phone {
+    background-color: #DBEAFE;
+    color: #155DFC;
+
+}
+
+.social .fa-envelope {
+    background-color: #EDE9FE;
+    color: #7F22FE;
+}
+
+.social .fa-location-dot {
+    background-color: #D0FAE5;
+    color: #009966;
+}
+
+.contact-img .fa-star {
+    width: 23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 7px;
+    position: absolute;
+    background-color: #FFB900;
+    right: -3px;
+    top: -3px;
+}
+
+.contact-img .fa-heart-pulse {
+    width: 23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 7px;
+    position: absolute;
+    background-color: #FF2056;
+    right: -3px;
+    bottom: -3px;
+}
+
+.social .group {
+    font-size: 12px;
+    color: #1447E6;
+    background-color: #DBEAFE;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin-right: 8px;
+    font-weight: 500;
+}
+
+.social .emergency {
+    font-size: 12px;
+    color: #EC003F;
+    background-color: #FFF1F2;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.contact-body .contact-details {
+    border: 1px solid rgb(236, 236, 236);
+    box-shadow: 0px 0px 2px #dddddd;
+    transition: all .3s ease;
+    border-radius: 15px;
+
+}
+
+.contact-body .contact-details:hover {
+    box-shadow: 0px 5px 5px #dddddd;
+
+}
+
+.contact-body .contact-detail {
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 15px;
+}
+
+
+.contact-icons {
+    background-color: #FAFBFC;
+    border-top: 1px solid #F3F4F6;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px 15px;
+}
+
+.contact-icons .icons-design {
+    font-size: small;
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.contact-icons .fa-phone {
+    color: #009966;
+    background-color: #ECFDF5;
+}
+
+.contact-icons .fa-phone:hover {
+    background-color: #D0FAE5;
+}
+
+.contact-icons .fa-envelope {
+    color: #7F22FE;
+    background-color: #F5F3FF;
+}
+
+.contact-icons .fa-envelope:hover {
+    background-color: #EDE9FE;
+}
+
+
+.star-full{
+    color: #FFB900;
+    background-color: #FFFBEB;
+}
+
+.contact-icons .fa-star:hover {
+    background-color: #FFF8ED;
+}
+
+
+.emerency-full {
+    color: #FF2056;
+    background-color: #FFF1F2;
+}
+
+.contact-icons .fa-heart-pulse:hover {
+    background-color: #FEF2F2;
+}
+
+
+.contact-icons .fa-pen,
+.contact-icons .fa-trash ,
+.star-regular,
+.emerency-regular{
+    color: #6A7282;
+}
+
+.contact-icons .fa-pen:hover {
+    color: #1447E6;
+    background-color: #eef5ff;
+}
+
+.contact-icons .fa-trash:hover {
+    color: #ED0845;
+    background-color: #FFF1F2;
+}
+
+.right-section {
+    border-radius: 15px;
+    border: 1px solid rgb(236, 236, 236);
+    box-shadow: 0px 0px 2px #dddddd;
+    transition: all .3s ease;
+
+}
+
+.right-section .right-section-heading {
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 1px solid #F3F4F6;
+}
+
+.right-section .head-sec-color1 {
+    background-color: #FFF8ED;
+}
+
+.right-section .head-sec-color2 {
+    background-color: #FEF2F2;
+}
+
+.right-section .right-section-heading .fa-star {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 13px;
+    box-shadow: 0px 5px 10px #FFE2B5;
+    background: linear-gradient(135deg, #FFB100 0%, #FF7A00 100%);
+
+}
+
+.right-section .right-section-heading .fa-heart-pulse {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 13px;
+    box-shadow: 0px 5px 10px #FFE2B5;
+    background: linear-gradient(135deg, #FC1B4F 0%, #EC0022 100%);
+
+}
+
+.right-section .right-section-heading p {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.right-section .right-section-heading span {
+    color: #767D8B;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.right-section .right-section-body {
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.right-section .right-section-body .contact-name {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #FD9300 0%, #F75800 100%);
+
+}
+
+.right-section .right-section-body .left p {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.right-section .right-section-body .left span {
+    color: #767D8B;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.call-icons .icons-design {
+    font-size: 12px;
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+
+}
+
+.green-call-design {
+    color: #009966;
+    background-color: #D0FAE5;
+}
+
+.red-call-design{
+    color: #EC003F;
+    background-color: #FFE4E6;
+}
+
+.call-design {
+    background-color: #F9FAFB;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+.green-call-design:hover {
+    background-color: #009966;
+    color: white;
+}
+
+
+.red-call-design:hover {
+    background-color: #EC003F;
+    color: white;
+}
+
+
+
+
+.light-container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1031;
+}
+
+.light-container .form-design {
+    width: 500px;
+    height: 550px;
+    overflow: auto;
+    scrollbar-width: none;
+    background-color: white;
+    border: 1px solid rgb(236, 236, 236);
+    box-shadow: 0px 0px 2px #dddddd;
+    transition: all .3s ease;
+    border-radius: 15px;
+}
+
+.light-container .form-design .form-heading {
+    padding: 15px 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#closeBtn {
+    cursor: pointer;
+    color: #a0a0a0;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+}
+#closeBtn:hover{
+    background-color: #f1f1f1;
+    color: #797979;
+
+}
+.form-body .fa-user {
+    background: linear-gradient(135deg, #90b8f8 0%, #1761FC 100%);
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+
+.form-body .img-btn {
+    font-size: 15px;
+    margin-top: 8px;
+    color: #484e53;
+    font-weight: 600;
+    background-color: #eeeded;
+    border-radius: 10px;
+}
+.form-body .img-btn:hover{
+    background-color: #dfdfdf;
+
+}
+.form-body .form-info {
+    padding: 20px;
+}
+
+.form-body .form-info label {
+    color: #3b3b3b;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.form-body .form-info input,
+.form-body .form-info select,
+.form-body .form-info textarea {
+    background-color: #f7f7f7;
+    padding: 13px;
+}
+
+.form-body .form-info textarea {
+    resize: none;
+}
+
+input[type="checkbox" i] {
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+.form-body .form-info i {
+    font-size: small;
+    margin-right: 5px;
+}
+.form-body .form-info .cancel-btn{
+    background-color: #f7f7f7;
+    padding: 8px 20px; 
+    color: #3b3b3b;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 100%;
+    transition: all .3s ease;
+}
+.form-body .form-info .cancel-btn:hover{
+    background-color: #dfdede;
+}
+.form-body .form-info .save-btn{
+    background: linear-gradient(90deg, #7E25FE 0%, #5238F7 100%);
+    padding: 8px 20px; 
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 100%;
+    transition: all .3s ease;
+}
+.form-body .form-info .save-btn:hover{
+    box-shadow: 0px 5px 10px #E0D2FF;
+}
+/* END OF Main */

@@ -1,0 +1,11 @@
+@media screen and (min-width:1024px) {
+    .navbar {
+        padding: .8rem 3rem;
+    }
+
+    .contact-body {
+        padding: 75px 48px
+    }
+}
+
+
